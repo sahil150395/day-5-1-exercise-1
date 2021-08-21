@@ -6,7 +6,14 @@ for n in range(0, len(student_heights)):
 
 
 #Write your code below this row 👇
+heightSum = 0
+studentCount = 0
 
+for height in student_heights:
+    heightSum += height
+    studentCount += 1
+
+print(round(heightSum/studentCount))
 
 
 
